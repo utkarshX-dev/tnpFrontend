@@ -5,8 +5,19 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg shadow-sm py-3">
         <div className="container">
-          <Link className="navbar-brand fw-bold fs-4 text-dark" to="/">
-            🛠️ TnP Dashboard
+          <Link className="navbar-brand d-flex align-items-center gap-3" to="/">
+            <img
+              src="/logo.png"
+              alt="DTU Logo"
+              style={{ height: "48px", width: "48px", objectFit: "contain" }}
+            />
+            <span className="d-none d-md-block" style={{ lineHeight: 1.1 }}>
+              <span className="fs-6">
+                <Link to="/" style={{textDecoration:"none", color:"black"}}>Department of Training <br/>and Placement</Link>
+              </span>
+              <br />
+             
+            </span>
           </Link>
 
           <button

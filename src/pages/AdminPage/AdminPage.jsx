@@ -78,7 +78,7 @@ const AdminPage = () => {
           <AdminLogin onLogin={handleLogin} />
           <div className="text-center mt-3">
             <Link to="/" className="text-decoration-none">
-              ⬅️ Back to Home
+             <button className="btn btn-primary">Back to Home</button>
             </Link>
           </div>
         </>
