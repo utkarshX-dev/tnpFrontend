@@ -23,6 +23,7 @@ A web application for Training & Placement (TnP) management, built with React an
 - `bootstrap`, `react-bootstrap`
 - `formik`, `yup`
 - `@popperjs/core`
+- `@aos`
 
 ---
 
