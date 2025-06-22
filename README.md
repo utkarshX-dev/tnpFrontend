@@ -1,4 +1,4 @@
- 🎓 TnP Recruitment Dashboard (Frontend)
+## 🎓 TnP Recruitment Dashboard (Frontend)
 
 A web application for Training & Placement (TnP) management, built with React and Vite. This dashboard allows admins to generate secure, shareable links for student data.
 
