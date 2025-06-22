@@ -24,10 +24,6 @@ A web application for Training & Placement (TnP) management, built with React an
 - `formik`, `yup`
 - `@popperjs/core`
 
---
-...existing code...
-- `@popperjs/core`
-
 ---
 
 ## 📁 Project Structure
@@ -68,3 +64,14 @@ Tnp Frontend/
    ```sh
    npm run preview
    ```
+---
+
+## 📝 License
+
+MIT
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ for the DTU Training & Placement Cell.
