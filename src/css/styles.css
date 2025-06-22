@@ -5,11 +5,11 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif !important;
-  background: linear-gradient(135deg, #e0e7ff 0%, #f0f4f8 100%) !important;
+  background-color: #FFFFFF;
 }
 
 .navbar {
-  background-color:  #e6f0ff!important;
+  background-color: white;
   border-bottom: 1px solid #b6c9e1;
 }
 .navbar-collapse {
@@ -53,6 +53,13 @@ html, body {
   border-radius: 0.5rem;
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
+}
+.section-underline {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: #2563eb;
+  text-underline-offset: 8px;
+  margin-top: 2.5rem;
 }
 
 @media (max-width: 991.98px) {

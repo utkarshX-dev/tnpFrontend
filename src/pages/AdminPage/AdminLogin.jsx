@@ -1,5 +1,5 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import adminLoginSchema from '../validations/adminLoginSchema';
+import adminLoginSchema from '../../validations/adminLoginSchema';
 
 const AdminLogin = ({ onLogin }) => {
   return (

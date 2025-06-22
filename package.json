@@ -2,7 +2,7 @@
   "name": "tnp-frontend",
   "private": true,
   "version": "1.0.0",
-   "description": "Frontend for DTU TnP Recruitment Dashboard",
+  "description": "Frontend for DTU TnP Recruitment Dashboard",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "aos": "^2.3.4",
     "axios": "^1.10.0",
     "bootstrap": "^5.3.7",
     "formik": "^2.4.6",
@@ -32,5 +33,4 @@
     "globals": "^16.0.0",
     "vite": "^6.3.5"
   }
-  
 }

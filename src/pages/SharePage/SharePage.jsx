@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getSharedStudentData } from "../services/studentService";
+import { getSharedStudentData } from "../../services/studentService";
 import { Spinner } from "react-bootstrap";
 
 const SharePage = () => {
