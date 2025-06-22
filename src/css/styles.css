@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif !important;
+  background-color: #f0f4f8 !important;
+}
+
+.navbar {
+  background-color:  #e6f0ff!important;
+  border-bottom: 1px solid #b6c9e1;
+}
+.navbar-collapse {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #0f172a !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1d4ed8 !important;
+}
+
+.navbar-toggler {
+  padding: 0.4rem 0.6rem;
+  border: none;
+}
+.hero-section {
+  background-image: url('/dtu.webp');
+  background-size: cover;
+  background-position: center;
+  height: 89vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+}
+
+.hero-section .content {
+  z-index: 2;
+  max-width: 640px;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
