@@ -3,11 +3,11 @@ export default function About() {
     <div className="container mt-5" id="about">
       <div className="row mb-5">
         <div className="col-6 text-center mt-5">
-          <img src="/vc.png" alt="vc"/>
+          <img src="/vc.png" alt="vc" className="img-fluid" style={{ maxHeight: "320px", objectFit: "contain" }} />
         </div>
-        <div className="col-6">
+        <div className="col-6 d-flex flex-column justify-content-center">
           <h1>
-             <sup><i className="fa-solid fa-quote-left"></i></sup>&nbsp;Prof. Prateek Sharma
+            <sup><i className="fa-solid fa-quote-left"></i></sup>&nbsp;Prof. Prateek Sharma
           </h1>
           <h5 className="fs-5 text-muted">
             Vice Chancellor, Delhi Technological University
@@ -22,8 +22,8 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="row mt-5">
-        <div className="col-6">
+      <div className="row mt-5 align-items-center">
+        <div className="col-6 d-flex flex-column justify-content-center">
           <h1>
             <sup><i className="fa-solid fa-quote-left"></i></sup>&nbsp;Prof. Anil Singh Parihar
           </h1>
@@ -38,11 +38,22 @@ export default function About() {
             Our students are among the most talented and dedicated in the country. Through a comprehensive curriculum, hands-on learning, and consistent mentoring, they develop the skills and mindset needed to contribute meaningfully in dynamic professional environments.
             <br /><br />
             I extend my sincere appreciation to all our valued recruiters for their continued trust and association with DTU. We are committed to supporting the talent needs of our recruiters by connecting them with students who are not only academically strong but also adaptable, analytical, and ready to take on real-world challenges. We welcome all our recruiters to engage with our students through internships, full-time placements, live projects, and campus connect initiatives.
+            <br /><br />
+            <b>Why Choose DTU Students?</b>
+            <ul>
+              <li>Strong academic foundation and practical exposure</li>
+              <li>Excellent communication and leadership skills</li>
+              <li>Adaptability to dynamic work environments</li>
+              <li>Proven track record in national and international placements</li>
+              <li>Active participation in research, innovation, and entrepreneurship</li>
+            </ul>
+            <br />
+            We look forward to building lasting partnerships and creating new opportunities for growth and success together.
           </p>
         </div>
         <div className="col-2"></div>
-        <div className="col-4">
-          <img src="/hod.png" alt="hod" />
+        <div className="col-4 text-center">
+          <img src="/hod.png" alt="hod" className="img-fluid" style={{ maxHeight: "320px", objectFit: "contain" }} />
         </div>
       </div>
     </div>

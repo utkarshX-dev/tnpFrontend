@@ -1,5 +1,4 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import "../../css/HomePage.css";
 import Hero from "./Hero";
 import About from "./About";
 import Section from "./Section";

@@ -25,13 +25,13 @@ export default function WhyDtu() {
           </div>
         </div>
         <div className="row mt-5 p-5" style={{ backgroundColor: "#EFF6FF" }}>
-          <div className="col-4 text-center text-black">
+          <div className="col-4 text-center text-black" >
             <h3 className="fw-bold mb-2">1.8 Cr</h3>
             <p style={{ fontSize: "1.2rem" }} className="text-muted">
               Highest Package <br /> (International)
             </p>
           </div>
-          <div className="col-4 text-center text-black">
+          <div className="col-4 text-center text-black  ">
             <h3 className="fw-bold mb-2">85 LPA</h3>
             <p style={{ fontSize: "1.2rem" }} className="text-muted">
               Highest Package
@@ -39,7 +39,7 @@ export default function WhyDtu() {
               (Domestic)
             </p>
           </div>
-          <div className="col-4 text-center text-black">
+          <div className="col-4 text-center text-black  ">
             <h3 className="fw-bold mb-2">1000+</h3>
             <p style={{ fontSize: "1.2rem" }} className="text-muted">
               Number of
