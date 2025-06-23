@@ -11,8 +11,8 @@ export default function Hero() {
             Training and Placement Cell, Delhi Technological University
           </h1>
           <p className="lead mb-4">
-            Use the admin panel to generate shareable student data links
-            securely.
+            Use the admin panel to securely generate shareable tokens for
+            student data links.
           </p>
           <Link to="/admin" className="btn btn-primary btn-lg shadow-sm">
             Go to Admin Panel
